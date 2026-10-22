@@ -1,0 +1,22 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/playbackbone-com/integrations
+- https://zapier.com/apps/playbackbone/integrations
+- https://zapier.com/apps/backbone/integrations
+- https://n8n.io/integrations/playbackbone-com/
+- https://n8n.io/integrations/playbackbone/
+- https://composio.dev/toolkits/playbackbone-com
+- https://monid.ai/tools/playbackbone-com
+checked:
+- https://composio.dev/toolkits/playbackbone-com
+- https://monid.ai/tools/playbackbone-com
+- https://n8n.io/integrations/playbackbone-com/
+- https://n8n.io/integrations/playbackbone/
+- https://zapier.com/apps/backbone/integrations
+- https://zapier.com/apps/playbackbone-com/integrations
+- https://zapier.com/apps/playbackbone/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

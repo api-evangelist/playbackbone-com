@@ -1,25 +1,70 @@
 aid: playbackbone-com
+
 name: Backbone
-description: 'Backbone is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by index-ventures) and added to the network as a stub for full-pipeline profiling.'
+
+image: http:///backbone.com/cdn/shop/files/og-preview_e29fc957-c09b-47d4-8a14-9f39c2f06e07.jpg?v=1628717523
+
+description: 'Backbone sells handheld gaming controllers and devices, such as the Backbone Pro and Backbone One, along with the Backbone App that lets gamers play mobile, console, and PC games on their phones or stream from cloud services. The products target gamers who want portable, low‑latency control for services like Xbox Cloud Gaming, PlayStation Remote Play, Steam Link, Apple Arcade, and NVIDIA GeForce NOW.'
+
 url: https://raw.githubusercontent.com/api-evangelist/playbackbone-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
-- Company
-apis: []
+- Gaming Controllers
+- Mobile Gaming
+- Cloud Gaming
+- Console Accessories
+- Gaming App
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- index-ventures
+
 common:
+- type: LLMsTxt
+  url: llms/playbackbone-com-llms.txt
+- type: WellKnown
+  url: well-known/playbackbone-com-well-known.yml
+- type: Hosts
+  url: hosts/playbackbone-com-hosts.yml
+- type: Vendors
+  url: vendors/playbackbone-com-vendors.yml
+- type: TermsOfService
+  url: https://backbone.com/pages/terms/
+- type: Security
+  url: https://backbone.com/pages/security
+- type: Newsroom
+  url: https://backbone.com/pages/press
+- type: GettingStarted
+  url: https://help.backbone.com/hc/en-us/sections/30457641475991-Getting-Started-with-Backbone-Pro
+- type: Documentation
+  url: https://help.backbone.com/
+- type: DomainSecurity
+  url: security/playbackbone-com-domain-security.yml
 - type: Website
   url: https://playbackbone.com/
+
+apis: []
+
+x-backed-by:
+- index-ventures
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
